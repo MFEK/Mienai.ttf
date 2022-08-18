@@ -126,7 +126,7 @@
     <tableVersion version="0"/>
     <cmap_format_13 platformID="0" platEncID="6" format="13" reserved="0" length="40" language="0" nGroups="2">
       <map code="0x0" name="uni0000"/><!-- ???? -->
-      <map code="0x10ffffff" name="uni0000"/><!-- ???? -->
+      <map code="0x10ffff" name="uni0000"/><!-- ???? -->
     </cmap_format_13>
     <cmap_format_0 platformID="1" platEncID="0" language="0">
       <map code="0x0" name="glyph00002"/>
@@ -137,7 +137,7 @@
     </cmap_format_0>
     <cmap_format_13 platformID="3" platEncID="10" format="13" reserved="0" length="40" language="0" nGroups="2">
       <map code="0x0" name="uni0000"/><!-- ???? -->
-      <map code="0x10ffffff" name="uni0000"/><!-- ???? -->
+      <map code="0x10ffff" name="uni0000"/><!-- ???? -->
     </cmap_format_13>
   </cmap>
 
@@ -199,6 +199,51 @@
       https://creativecommons.org/publicdomain/zero/1.0/legalcode
     </namerecord>
   </name>
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="0"/>
+    <underlineThickness value="0"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+    </extraNames>
+  </post>
+
+  <vhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="2520"/>
+    <descent value="-1449"/>
+    <lineGap value="67"/>
+    <advanceWidthMax value="2048"/>
+    <minTopSideBearing value="0"/>
+    <minBottomSideBearing value="0"/>
+    <xMaxExtent value="0"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <reserved4 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="1"/>
+  </vhea>
 
   <vmtx>
     <mtx name=".notdef" height="2048" tsb="0"/>
